@@ -35,11 +35,17 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - images/iface.png
+    - images/kojo.png
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  fonts:
+    - family: Overlock
+      fonts:
+        - asset: fonts/JustAnotherHand-Regular.ttf
+        - asset: fonts/SourceSansPro-Regular.ttf
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
